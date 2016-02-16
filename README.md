@@ -1,6 +1,6 @@
 # AndroidDemo
 AndroidDemo
-[]
+![截图](https://github.com/BruceAnda/AndroidDemo/blob/master/screenshot/Screenshot_20160216-165250.png)
 #快速入门
 #数据存储和界面展示（上）
 #数据存储和界面展示（下）
