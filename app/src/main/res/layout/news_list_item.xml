@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.zhaoliang.androiddemo.day04.openimageviewer.com.loopj.android.image.SmartImageView
+        android:id="@id/news_image"
+        android:layout_width="96dp"
+        android:layout_height="96dp" />
+
+    <TextView
+        android:id="@id/news_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@id/news_image"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@id/news_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/news_title"
+        android:layout_toRightOf="@id/news_image"
+        android:lines="2"
+        android:textColor="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@id/news_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/news_detail"
+        android:textColor="@android:color/holo_red_light" />
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TitleStyle"
+        android:text="TableLayoutDemo" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="0, 1, 2">
+
+        <TableRow>
+
+            <TextView android:text="姓名" />
+
+            <TextView android:text="年龄" />
+
+            <TextView android:text="住址" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:text="张三" />
+
+            <TextView android:text="24" />
+
+            <TextView android:text="北京" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:text="李四" />
+
+            <TextView android:text="33" />
+
+            <TextView android:text="北京" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

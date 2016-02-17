@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zhaoliang.androiddemo">
+
+    <!-- 拨打电话的权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- 发送短信的权限 -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <!-- 使用SD卡的权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 访问网络的权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".app.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".day01.MainDay01Activity" />
+        <activity android:name=".day02.MainDay02Activity" />
+        <activity android:name=".day03.MainDay03Activity" />
+        <activity android:name=".day04.MainDay04Activity" />
+        <activity android:name=".day05.MainDay05Activity" />
+        <activity android:name=".day06.MainDay06Activity" />
+        <activity android:name=".day07.MainDay07Activity" />
+        <activity android:name=".day08.MainDay08Activity" />
+        <activity android:name=".day09.MainDay09Activity" />
+        <activity android:name=".day10.MainDay10Activity" />
+        <activity android:name=".day11.MainDay11Activity" />
+        <activity android:name=".day12.MainDay12Activity" />
+        <activity android:name=".day13.MainDay13Activity" />
+        <activity android:name=".day14.MainDay14Activity" />
+        <activity android:name=".day15.MainDay15Activity" />
+        <activity android:name=".day01.dialer.DialerActivity" />
+        <activity android:name=".day01.smssender.SmsSenderActivity" />
+        <activity android:name=".day01.onclick.OnClickActivity" />
+        <activity android:name=".day02.layout.LayoutMainActivity" />
+        <activity android:name=".day02.logcat.LogcatActivity" />
+        <activity android:name=".day02.storage.StorageMainActivity" />
+        <activity android:name=".day02.layout.linearlayout.LinearLayoutDemo" />
+        <activity android:name=".day02.layout.linearlayout.LinearLayoutDmeo2" />
+        <activity android:name=".day02.layout.relativelayout.RelativeLayoutDemo" />
+        <activity android:name=".day02.layout.relativelayout.RelativeLayoutDemo2" />
+        <activity android:name=".day02.layout.tablelayout.TableLayoutDemo" />
+        <activity android:name=".day02.layout.framelayout.FrameLayoutDemo" />
+        <activity android:name=".day02.layout.absolutelayout.AbsoluteLayoutDemo" />
+        <activity android:name=".day02.xml.XMLActivity" />
+        <activity android:name=".day02.storage.sdsize.SdSizeActivity" />
+        <activity android:name=".day02.storage.internalstorage.InternalStorageActivity" />
+        <activity android:name=".day02.storage.externalstorage.ExternalStorageActivity" />
+        <activity android:name=".day02.storage.sharedperferences.SharedPerferencesActivity" />
+        <activity android:name=".day03.junit.JunitActivity" />
+        <activity android:name=".day03.sqlite.SqliteActivity" />
+        <activity android:name=".day03.listview.ListViewActivity" />
+        <activity android:name=".day03.dialog.DialogActivity" />
+        <activity android:name=".day04.getandpost.GetAndPostActivity" />
+        <activity android:name=".day04.htmlviewer.HTMLViewerActivity" />
+        <activity android:name=".day04.imageviewer.ImageViewerActivity" />
+        <activity android:name=".day04.newsclient.NewsClientActivity" />
+        <activity android:name=".day04.openimageviewer.OpenImageViewerActivity" />
+        <activity android:name=".day05.asnychttpclient.AsnycHttpClientActivity" />
+        <activity android:name=".day05.httpclientgetandpost.HttpClientActivity" />
+        <activity android:name=".day05.multithreadedhttp.MultithreadedHttpActivity" />
+        <activity android:name=".day05.xutils.XutilsActivity" />
+        <activity android:name=".day01.helloworld.HelloWorldActivity"></activity>
+    </application>
+
+</manifest>

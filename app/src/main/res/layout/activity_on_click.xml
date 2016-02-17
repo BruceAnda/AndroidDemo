@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TitleStyle"
+        android:text="按钮点击事件的写法" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnClick"
+        android:text="第一种写法" />
+
+    <Button
+        android:id="@id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="第二种写法" />
+
+    <Button
+        android:id="@id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="第三种写法" />
+
+    <Button
+        android:id="@id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="第四种写法" />
+</LinearLayout>

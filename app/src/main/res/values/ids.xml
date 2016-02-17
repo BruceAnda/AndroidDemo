@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- day01 ids -->
+    <item name="et_phone" type="id" />
+
+    <item name="et_sms_content" type="id" />
+
+    <item name="btn2" type="id" />
+    <item name="btn3" type="id" />
+    <item name="btn4" type="id" />
+
+    <!-- day02 ids -->
+    <item name="btn_center" type="id" />
+
+    <item name="tv1" type="id" />
+    <item name="tv2" type="id" />
+    <item name="tv3" type="id" />
+    <item name="tv4" type="id" />
+    <item name="tv5" type="id" />
+    <item name="tv6" type="id" />
+    <item name="tv7" type="id" />
+
+    <item name="internal_storage" type="id" />
+    <item name="external_storage" type="id" />
+
+    <item name="et_username" type="id" />
+    <item name="et_password" type="id" />
+    <item name="cb_remember" type="id" />
+    <item name="btn_login" type="id" />
+
+    <item name="btn_writexml" type="id" />
+    <item name="btn_readxml" type="id" />
+
+    <item name="person_xml_list" type="id" />
+
+    <!-- day03 ids -->
+    <item name="arrayadater_list" type="id" />
+    <item name="simpleadater_list" type="id" />
+    <item name="customadapter_list" type="id" />
+    <item name="iv_icon" type="id" />
+    <item name="tv_name" type="id" />
+
+    <item name="btn_dialog" type="id" />
+    <item name="btn_single_dialog" type="id" />
+    <item name="btn_multiple_dialog" type="id" />
+
+    <!-- day04 ids -->
+    <item name="iv_image" type="id" />
+
+    <item name="smart_image_view" type="id" />
+
+    <item name="tv_html" type="id" />
+
+    <item name="new_list" type="id" />
+    <item name="news_image" type="id" />
+    <item name="news_title" type="id" />
+    <item name="news_detail" type="id" />
+    <item name="news_comment" type="id" />
+
+    <item name="btn_get" type="id" />
+    <item name="btn_post" type="id" />
+
+    <!-- day05 ids -->
+    <item name="pb_progress" type="id" />
+    <item name="tv_progress" type="id" />
+    <item name="btn_download" type="id"/>
+
+
+    <!-- day06 ids -->
+    <!-- day07 ids -->
+    <!-- day08 ids -->
+    <!-- day09 ids -->
+    <!-- day10 ids -->
+    <!-- day11 ids -->
+    <!-- day12 ids -->
+    <!-- day13 ids -->
+    <!-- day14 ids -->
+    <!-- day15 ids -->
+</resources>

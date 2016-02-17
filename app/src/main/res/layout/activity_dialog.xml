@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TitleStyle"
+        android:text="Dialog" />
+
+    <Button
+        android:id="@id/btn_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="对话框" />
+
+    <Button
+        android:id="@id/btn_single_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="单选对话框" />
+
+    <Button
+        android:id="@id/btn_multiple_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="多选对话框" />
+</LinearLayout>
