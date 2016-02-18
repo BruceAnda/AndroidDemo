@@ -16,6 +16,15 @@ import com.zhaoliang.androiddemo.day02.storage.util.StorageUtil;
 
 import java.util.Map;
 
+/**
+ * 需求：使用SharedPerferences来保存数据
+ * 思路：
+ * 1.SharePerferences是以键值对的形式来存储数据的，可以通过getSharedPerferences()来获取一个SharedPerferences文件
+ * 2.编写布局
+ * 3.编写对应的Activity
+ * 4.获取一个SharedPerferences文件
+ * 5.在SharedPerferences文件中写入数据
+ */
 public class SharedPerferencesActivity extends Activity implements View.OnClickListener {
 
     private EditText et_username;

@@ -1,6 +1,7 @@
 package com.zhaoliang.androiddemo.day02.xml.domain;
 
 /**
+ * 实体类
  * Created by pro on 16/2/2.
  */
 public class Person {

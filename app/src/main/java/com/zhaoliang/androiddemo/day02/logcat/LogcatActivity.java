@@ -6,6 +6,12 @@ import android.util.Log;
 
 import com.zhaoliang.androiddemo.R;
 
+/**
+ * 需求：使用Android中Logcat输出日志
+ * 思路：
+ * 1.Android中提供了Log类来打印Log
+ * 2.分别输出不同的log等级日志
+ */
 public class LogcatActivity extends Activity {
 
     private static final String TAG = "LogcatActivity";

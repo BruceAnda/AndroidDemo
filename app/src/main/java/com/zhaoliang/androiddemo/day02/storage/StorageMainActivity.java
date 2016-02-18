@@ -13,6 +13,12 @@ import com.zhaoliang.androiddemo.day02.storage.internalstorage.InternalStorageAc
 import com.zhaoliang.androiddemo.day02.storage.sdsize.SdSizeActivity;
 import com.zhaoliang.androiddemo.day02.storage.sharedperferences.SharedPerferencesActivity;
 
+/**
+ * 需求：在Android设备中存储数据
+ * 思路：
+ * 1.编写布局文件
+ * 2.编写对应的Activity类
+ */
 public class StorageMainActivity extends ListActivity {
 
     @Override
@@ -20,14 +26,24 @@ public class StorageMainActivity extends ListActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_storage_main);
 
+        /*
+        给列表项填充数据
+         */
         setListAdapter(new ArrayAdapter<String>(this, R.layout.list_item, new String[]{"获取sd大小", "使用内部存储", "使用外部存储", "使用SharedPerferences"}));
     }
 
-    @Override
+    /**
+     * 列表项点击事件
+     *
+     * @param l
+     * @param v
+     * @param position
+     * @param id
+     */
     protected void onListItemClick(ListView l, View v, int position, long id) {
         switch (position) {
             case 0:
-                startActivity(new Intent(this, SdSizeActivity.class));
+                startActivity(new Intent(this, SdSizeActivity.class));      // 切换页面
                 break;
             case 1:
                 startActivity(new Intent(this, InternalStorageActivity.class));

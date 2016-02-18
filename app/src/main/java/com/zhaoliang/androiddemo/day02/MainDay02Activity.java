@@ -13,6 +13,9 @@ import com.zhaoliang.androiddemo.day02.logcat.LogcatActivity;
 import com.zhaoliang.androiddemo.day02.storage.StorageMainActivity;
 import com.zhaoliang.androiddemo.day02.xml.XMLActivity;
 
+/**
+ * Android中的界面展示和数据存储（上）
+ */
 public class MainDay02Activity extends ListActivity {
 
     @Override
@@ -20,10 +23,20 @@ public class MainDay02Activity extends ListActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_day02);
 
+        /**
+         * 设置列表数据
+         */
         setListAdapter(new ArrayAdapter<String>(this, R.layout.list_item, new String[]{"常见布局", "Logcat", "存储数据", "读写XML"}));
     }
 
-    @Override
+    /**
+     * 列表项点击事件
+     *
+     * @param l
+     * @param v
+     * @param position
+     * @param id
+     */
     protected void onListItemClick(ListView l, View v, int position, long id) {
         switch (position) {
             case 0:

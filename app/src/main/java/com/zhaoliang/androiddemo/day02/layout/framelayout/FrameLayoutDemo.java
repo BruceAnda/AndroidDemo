@@ -9,6 +9,12 @@ import android.widget.TextView;
 
 import com.zhaoliang.androiddemo.R;
 
+/**
+ * 需求：使用帧布局
+ * 思路：
+ * 1.编写布局文件
+ * 2.编写对应的Activity类
+ */
 public class FrameLayoutDemo extends Activity {
 
     private static final int UPDATE_BG = 1;
@@ -20,8 +26,8 @@ public class FrameLayoutDemo extends Activity {
         @Override
         public void handleMessage(Message msg) {
 
-           // tvs[0].setBackgroundColor(colors[currentColor % 7]);
-            for (int i = 0; i < tvs.length; i ++) {
+            // tvs[0].setBackgroundColor(colors[currentColor % 7]);
+            for (int i = 0; i < tvs.length; i++) {
                 tvs[i].setBackgroundColor(colors[(i + currentColor) % tvs.length]);
             }
             currentColor++;

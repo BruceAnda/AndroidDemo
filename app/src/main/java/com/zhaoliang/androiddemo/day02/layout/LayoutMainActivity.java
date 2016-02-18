@@ -16,6 +16,12 @@ import com.zhaoliang.androiddemo.day02.layout.relativelayout.RelativeLayoutDemo;
 import com.zhaoliang.androiddemo.day02.layout.relativelayout.RelativeLayoutDemo2;
 import com.zhaoliang.androiddemo.day02.layout.tablelayout.TableLayoutDemo;
 
+/**
+ * 需求：使用Android中常见的布局
+ * 思路：
+ * 1.编写布局文件
+ * 2.编写对应的Activity
+ */
 public class LayoutMainActivity extends ListActivity {
 
     @Override
@@ -33,11 +39,18 @@ public class LayoutMainActivity extends ListActivity {
                 "AbsoluteLayoutDemo"}));
     }
 
-    @Override
+    /**
+     * 列表项点击事件
+     *
+     * @param l
+     * @param v
+     * @param position
+     * @param id
+     */
     protected void onListItemClick(ListView l, View v, int position, long id) {
         switch (position) {
             case 0:
-                startActivity(new Intent(this, LinearLayoutDemo.class));
+                startActivity(new Intent(this, LinearLayoutDemo.class));       // 界面跳转
                 break;
             case 1:
                 startActivity(new Intent(this, LinearLayoutDmeo2.class));

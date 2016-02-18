@@ -21,6 +21,15 @@ import java.io.FileOutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 需求：读写XML
+ * 思路：
+ * 1.Android提供了读写Xml的类，可以方便的读写XML文件
+ * 2.创建布局文件
+ * 3.编写对应的Activity
+ * 4.写入XML文件
+ * 5.读取XML文件
+ */
 public class XMLActivity extends Activity implements View.OnClickListener {
 
     private Button btn_writexml;

@@ -10,6 +10,13 @@ import android.widget.TextView;
 
 import com.zhaoliang.androiddemo.R;
 
+/**
+ * 需求：获取SD卡的大小
+ * 思路：
+ * 1.编写布局文件
+ * 2.编写对应的Activity类
+ * 3.Android中提供了StatFs类来计算 文件的大小
+ */
 public class SdSizeActivity extends Activity {
 
     private TextView internal_storage;

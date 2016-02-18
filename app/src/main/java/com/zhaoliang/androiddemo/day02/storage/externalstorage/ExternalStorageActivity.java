@@ -22,11 +22,22 @@ import java.io.IOException;
 import java.util.Map;
 
 /**
- * 使用外部存储
+ * 需求：使用外部存储保存数据
+ * 思路：
+ * 1.外部存储路径指的是SD卡路径，可以通过Environment.getExternalStorageDirectory()来获得
+ * 2.编写布局
+ * 3.编写对应的Activity
+ * 4.获取界面数据
+ * 5.在外部存储中创建文件
+ * 6.写入外部存储数据
  */
 public class ExternalStorageActivity extends Activity implements View.OnClickListener {
 
     private static final int WRITE_EXTERNAL_STORAGE_REQUEST_CODE = 1;
+
+    /**
+     * 声明控件
+     */
     private EditText et_username;
     private EditText et_password;
     private CheckBox cb_remeber;
@@ -38,7 +49,7 @@ public class ExternalStorageActivity extends Activity implements View.OnClickLis
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_external_storage);
 
-        path = Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator + "external.txt";
+        path = Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator + "external.txt";       // 外部存储路径
 
         File file = new File(path);
         if (!file.exists()) {

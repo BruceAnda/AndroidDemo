@@ -5,6 +5,12 @@ import android.os.Bundle;
 
 import com.zhaoliang.androiddemo.R;
 
+/**
+ * 需求：使用表格布局
+ * 思路：
+ * 1.编写布局文件
+ * 2.编写对应的Activity类
+ */
 public class TableLayoutDemo extends Activity {
 
     @Override

@@ -15,8 +15,21 @@ import com.zhaoliang.androiddemo.day02.storage.util.StorageUtil;
 import java.io.File;
 import java.util.Map;
 
+/**
+ * 需求：使用内部存储来存储数据
+ * 思路：
+ * 1.内部存储指的是data/data/包名下的路径
+ * 2.编写界面
+ * 3.编写对应的Activity
+ * 4.获取界面上的数据
+ * 5.在内部存储空间中创建一个文件
+ * 6.获取界面上的数据写入的内部文件中
+ */
 public class InternalStorageActivity extends Activity implements View.OnClickListener {
 
+    /**
+     * 声明控件
+     */
     private EditText et_username;
     private EditText et_password;
     private CheckBox cb_remeber;
@@ -28,7 +41,7 @@ public class InternalStorageActivity extends Activity implements View.OnClickLis
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_internal_storage);
 
-        path = getFilesDir() + File.separator + "internal.txt";
+        path = getFilesDir() + File.separator + "internal.txt";     // 内部存储路径
 
         findView();
 
