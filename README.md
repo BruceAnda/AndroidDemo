@@ -44,6 +44,19 @@
 ![截图](https://github.com/BruceAnda/AndroidDemo/blob/master/screenshot/day02/Screenshot_20160218-094716.png)
 
 ## 数据存储和界面展示（下）
+![截图](https://github.com/BruceAnda/AndroidDemo/blob/master/screenshot/day03/Screenshot_20160219-141820.png)
+### Junit测试
+![截图](https://github.com/BruceAnda/AndroidDemo/blob/master/screenshot/day03/Screenshot_20160219-141828.png)
+### Junit测试Sqlite数据库的使用
+![截图](https://github.com/BruceAnda/AndroidDemo/blob/master/screenshot/day03/Screenshot_20160219-141835.png)
+### ListView的使用
+![截图](https://github.com/BruceAnda/AndroidDemo/blob/master/screenshot/day03/Screenshot_20160219-141845.png)
+### Android中对话框的使用
+![截图](https://github.com/BruceAnda/AndroidDemo/blob/master/screenshot/day03/Screenshot_20160219-141852.png)
+![截图](https://github.com/BruceAnda/AndroidDemo/blob/master/screenshot/day03/Screenshot_20160219-141858.png)
+![截图](https://github.com/BruceAnda/AndroidDemo/blob/master/screenshot/day03/Screenshot_20160219-141906.png)
+![截图](https://github.com/BruceAnda/AndroidDemo/blob/master/screenshot/day03/Screenshot_20160219-141912.png)
+
 ## 网络编程（上）
 ## 网络编程（下）
 ## 页面跳转和数据传递
