@@ -1,4 +1,4 @@
-package com.zhaoliang.androiddemo.day03.sqlite;
+package com.zhaoliang.androiddemo.day06.secondactivity;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -6,13 +6,13 @@ import android.os.Bundle;
 import com.zhaoliang.androiddemo.R;
 
 /**
- * 使用Sqlite数据库
+ * 第二个Activity
  */
-public class SqliteActivity extends Activity {
+public class SecondActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sqlite);
+        setContentView(R.layout.activity_second);
     }
 }

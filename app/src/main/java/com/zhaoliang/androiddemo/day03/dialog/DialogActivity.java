@@ -10,6 +10,9 @@ import android.widget.Toast;
 
 import com.zhaoliang.androiddemo.R;
 
+/**
+ * Android中对话框的使用
+ */
 public class DialogActivity extends Activity implements View.OnClickListener {
 
     private Button btn_dialog, btn_single_dialog, btn_multiple_dialog;

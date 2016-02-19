@@ -13,6 +13,9 @@ import com.zhaoliang.androiddemo.day03.junit.JunitActivity;
 import com.zhaoliang.androiddemo.day03.listview.ListViewActivity;
 import com.zhaoliang.androiddemo.day03.sqlite.SqliteActivity;
 
+/**
+ * Android数据存储和界面展示（下）
+ */
 public class MainDay03Activity extends ListActivity {
 
     @Override

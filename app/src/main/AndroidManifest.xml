@@ -72,7 +72,9 @@
         <activity android:name=".day05.httpclientgetandpost.HttpClientActivity" />
         <activity android:name=".day05.multithreadedhttp.MultithreadedHttpActivity" />
         <activity android:name=".day05.xutils.XutilsActivity" />
-        <activity android:name=".day01.helloworld.HelloWorldActivity"></activity>
+        <activity android:name=".day01.helloworld.HelloWorldActivity" />
+        <activity android:name=".day06.secondactivity.SecondActivity" />
+        <activity android:name=".day06.jumpactivity.JumpActivity"></activity>
     </application>
 
 </manifest>

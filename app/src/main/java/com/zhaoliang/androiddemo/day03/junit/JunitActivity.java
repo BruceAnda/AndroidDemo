@@ -5,6 +5,9 @@ import android.os.Bundle;
 
 import com.zhaoliang.androiddemo.R;
 
+/**
+ * 使用Junit单元测试
+ */
 public class JunitActivity extends Activity {
 
     @Override

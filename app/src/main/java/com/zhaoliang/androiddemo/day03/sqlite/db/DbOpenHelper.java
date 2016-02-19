@@ -10,8 +10,8 @@ import android.database.sqlite.SQLiteOpenHelper;
  */
 public class DbOpenHelper extends SQLiteOpenHelper {
 
-    private static final String DB_NAME = "person.db";
-    private static final int DB_VERSION = 2;
+    private static final String DB_NAME = "person.db";      // 数据库名称
+    private static final int DB_VERSION = 2;            // 数据库版本
 
     public DbOpenHelper(Context context) {
         super(context, DB_NAME, null, DB_VERSION);
