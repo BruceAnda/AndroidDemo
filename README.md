@@ -58,6 +58,19 @@
 ![截图](https://github.com/BruceAnda/AndroidDemo/blob/master/screenshot/day03/Screenshot_20160219-141912.png)
 
 ## 网络编程（上）
+![截图](https://github.com/BruceAnda/AndroidDemo/blob/master/screenshot/day04/Screenshot_20160222-094220.png)
+### 网络图片查看器
+![截图](https://github.com/BruceAnda/AndroidDemo/blob/master/screenshot/day04/Screenshot_20160222-094227.png)
+### 开源网络图片查看器
+![截图](https://github.com/BruceAnda/AndroidDemo/blob/master/screenshot/day04/Screenshot_20160222-094234.png)
+### Html查看器
+![截图](https://github.com/BruceAnda/AndroidDemo/blob/master/screenshot/day04/Screenshot_20160222-094244.png)
+### 简易新闻客户端
+![截图](https://github.com/BruceAnda/AndroidDemo/blob/master/screenshot/day04/Screenshot_20160222-094251.png)
+### GET和POST提交数据
+![截图](https://github.com/BruceAnda/AndroidDemo/blob/master/screenshot/day04/Screenshot_20160222-094312.png)
+![截图](https://github.com/BruceAnda/AndroidDemo/blob/master/screenshot/day04/Screenshot_20160222-094324.png)
+
 ## 网络编程（下）
 ## 页面跳转和数据传递
 ## 广播和服务（上）
