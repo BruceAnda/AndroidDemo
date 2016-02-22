@@ -31,7 +31,7 @@ public class HttpClientActivity extends Activity implements View.OnClickListener
     private Button btn_get;
     private Button btn_post;
 
-    private String path = "http://10.122.2.31:8080/login";
+    private String path = "http://10.122.2.97:8080/login";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

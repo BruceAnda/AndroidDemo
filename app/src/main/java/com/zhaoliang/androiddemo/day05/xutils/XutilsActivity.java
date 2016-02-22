@@ -15,7 +15,7 @@ import java.io.File;
 
 public class XutilsActivity extends Activity {
 
-    String downloadUrl = "http://192.168.43.167:8080/file/data.rar";
+    String downloadUrl = "http://10.122.2.97:8080/file/data.rar";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -29,7 +29,7 @@ public class MultithreadedHttpActivity extends Activity {
     static int finishedThread = 0;
     int currentProgress;
     String fileName = "data.rar";
-    String downloadUrl = "http://192.168.1.1:8080/file/data.rar";
+    String downloadUrl = "http://10.122.2.97:8080/file/data.rar";
 
     private ProgressBar progressBar;
     private TextView tvProgress;

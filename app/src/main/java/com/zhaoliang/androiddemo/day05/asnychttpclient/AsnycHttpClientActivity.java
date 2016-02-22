@@ -19,7 +19,7 @@ import cz.msebera.android.httpclient.Header;
  */
 public class AsnycHttpClientActivity extends Activity implements View.OnClickListener {
 
-    private String path = "http://10.122.2.31:8080/login";
+    private String path = "http://10.122.2.97:8080/login";
 
     private EditText et_username;
     private EditText et_password;
