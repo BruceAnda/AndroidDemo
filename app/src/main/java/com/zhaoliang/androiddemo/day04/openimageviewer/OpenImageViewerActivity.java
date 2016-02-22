@@ -19,6 +19,6 @@ public class OpenImageViewerActivity extends Activity {
         setContentView(R.layout.activity_open_image_viewer);
 
         smart_image_view = (SmartImageView) findViewById(R.id.smart_image_view);
-        smart_image_view.setImageUrl("http://10.122.1.8:8080/images/img.jpg");
+        smart_image_view.setImageUrl("http://pic.mmfile.net/2016/02/21c01.jpg");
     }
 }

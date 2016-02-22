@@ -6,7 +6,7 @@
 
     <TextView
         style="@style/TitleStyle"
-        android:text="按钮点击事件的写法" />
+        android:text="Html源码查看器" />
 
     <ScrollView
         android:layout_width="match_parent"

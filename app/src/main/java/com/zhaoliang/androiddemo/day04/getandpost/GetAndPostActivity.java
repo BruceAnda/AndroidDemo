@@ -19,7 +19,7 @@ import java.net.URL;
 
 public class GetAndPostActivity extends Activity implements View.OnClickListener {
 
-    private String path = "http://10.122.2.31:8080/login";
+    private String path = "http://10.122.2.97:8080/login";
 
     private EditText et_username;
     private EditText et_password;

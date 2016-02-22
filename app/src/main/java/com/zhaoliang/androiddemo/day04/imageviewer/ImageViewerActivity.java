@@ -24,7 +24,7 @@ import java.net.URL;
 public class ImageViewerActivity extends Activity {
 
     private static final String TAG = "ImageViewerActivity";
-    private String path = "http://10.122.1.8:8080/images/img.jpg";
+    private String path = "http://pic.mmfile.net/2016/02/21c01.jpg";
     private ImageView iv_image;
     private File file;
 

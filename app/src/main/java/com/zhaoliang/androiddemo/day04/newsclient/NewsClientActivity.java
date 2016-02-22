@@ -26,7 +26,7 @@ public class NewsClientActivity extends Activity {
 
     private ListView new_list;
 
-    private String path = "http://10.122.2.31:8080/xml/news.xml";
+    private String path = "http://10.122.2.97:8080/xml/news.xml";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
