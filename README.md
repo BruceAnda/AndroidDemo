@@ -72,6 +72,16 @@
 ![截图](https://github.com/BruceAnda/AndroidDemo/blob/master/screenshot/day04/Screenshot_20160222-094324.png)
 
 ## 网络编程（下）
+![截图](https://github.com/BruceAnda/AndroidDemo/blob/master/screenshot/day05/Screenshot_20160222-110645.png)
+### HttpClient GET和POST提交数据
+![截图](https://github.com/BruceAnda/AndroidDemo/blob/master/screenshot/day05/Screenshot_20160222-110658.png)
+### AsnycHttpClient GET和POST提交数据
+![截图](https://github.com/BruceAnda/AndroidDemo/blob/master/screenshot/day05/Screenshot_20160222-110723.png)
+### 多线程断点续传
+![截图](https://github.com/BruceAnda/AndroidDemo/blob/master/screenshot/day05/Screenshot_20160222-112137.png)
+### 使用XUtils下载
+![截图](https://github.com/BruceAnda/AndroidDemo/blob/master/screenshot/day05/Screenshot_20160222-112145.png)
+
 ## 页面跳转和数据传递
 ## 广播和服务（上）
 ## 广播和服务（下）
