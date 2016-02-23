@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TitleStyle"
+        android:text="获取返回值" />
+
+    <EditText
+        android:id="@id/et_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入返回值" />
+
+    <Button
+        android:id="@id/btn_result"
+        android:onClick="back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回" />
+</LinearLayout>

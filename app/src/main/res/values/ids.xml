@@ -68,6 +68,10 @@
 
 
     <!-- day06 ids -->
+    <item name="tv_data" type="id"/>
+    <item name="et_result" type="id"/>
+    <item name="btn_result" type="id"/>
+
     <!-- day07 ids -->
     <!-- day08 ids -->
     <!-- day09 ids -->

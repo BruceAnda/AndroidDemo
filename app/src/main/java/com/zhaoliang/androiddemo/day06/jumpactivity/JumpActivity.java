@@ -50,7 +50,7 @@ public class JumpActivity extends Activity {
      * @param view
      */
     public void click3(View view) {
-        Intent intent = new Intent("com.zhaoliang.androiddemo.day06.secondactivity.SecondActivity");
+        Intent intent = new Intent("com.zhaoliang.androiddemo.day06.secondactivity.JumpCatchDataActivity");
         //intent.setData(Uri.parse("user:123"));
         intent.setDataAndType(Uri.parse("pass:123"), "text/password");
         startActivity(intent);

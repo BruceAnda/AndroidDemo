@@ -76,24 +76,44 @@
         <activity android:name=".day06.secondactivity.SecondActivity">
             <intent-filter>
                 <action android:name="com.zhaoliang.androiddemo.day06.secondactivity.SecondActivity" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-
             <intent-filter>
                 <action android:name="com.zhaoliang.androiddemo.day06.secondactivity.SecondActivity" />
+
                 <data android:scheme="user" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-
             <intent-filter>
                 <action android:name="com.zhaoliang.androiddemo.day06.secondactivity.SecondActivity" />
+
                 <data
                     android:mimeType="text/password"
                     android:scheme="pass" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".day06.jumpactivity.JumpActivity"></activity>
+        <activity android:name=".day06.jumpactivity.JumpActivity" />
+        <activity android:name=".day06.jumpcatchdata.JumpCatchDataActivity" />
+        <activity android:name=".day06.activitylifecycle.ActivityLifecycleActivity" />
+        <activity android:name=".day06.activitylunchmode.ActivityLunchModeActivity" />
+        <activity
+            android:name=".day06.activitylunchmode.lunchmode.StandardActivity"
+            android:launchMode="standard" />
+        <activity
+            android:name=".day06.activitylunchmode.lunchmode.SingleTopActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".day06.activitylunchmode.lunchmode.SingleTaskActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".day06.activitylunchmode.lunchmode.SingleInstanceActivity"
+            android:launchMode="singleInstance" />
+        <activity android:name=".day06.vandhscreen.ScreenOraintationActivity" />
+        <activity android:name=".day06.activitydataresult.ActivityResultActivity"></activity>
     </application>
 
 </manifest>
